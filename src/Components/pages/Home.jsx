@@ -1,8 +1,9 @@
 
 import { useReducer, useState } from "react";
 import Navbar from "../Navbar";
-import TextEditor from "../TextEditor";
 import Footer from "./../Footer";
+import TextEditor from "../TextEditor";
+
 
 const Home = () => {
   const [copy, setCopy] = useState(false);
